@@ -8143,7 +8143,7 @@ body {
   color: #9da1a5;
   background-size: cover;
   background-repeat: no-repeat;
-  background: #191a1c; }
+  background: #000000; }
   body.menu-show {
     overflow: hidden;
     position: fixed;
@@ -8392,8 +8392,8 @@ strong {
   opacity: 1; }
 
 .hero-wrap {
-  width: 100%;
-  position: relative;
+  width: 100vw;
+  
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -8408,7 +8408,7 @@ strong {
     right: 0;
     bottom: 0;
     content: '';
-    opacity: .5;
+    opacity: 0;
     background: #000; }
 
 .slider-text {
@@ -8515,7 +8515,7 @@ strong {
   background: #9d8f8f; }
 
 .bg-darken {
-  background: #191a1c; }
+  background: #000000; }
 
 .bg-light {
   background: #f8f9fa !important; }
@@ -8793,7 +8793,7 @@ strong {
   font-weight: 700; }
 
 .aside-stretch {
-  background: #191a1c !important; }
+  background: #000000 !important; }
   .aside-stretch:after {
     position: absolute;
     top: 0;
@@ -8801,7 +8801,7 @@ strong {
     bottom: 0;
     content: '';
     width: 360%;
-    background: #191a1c; }
+    background: #000000; }
   @media (max-width: 767.98px) {
     .aside-stretch {
       background: transparent; }
