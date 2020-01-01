@@ -226,9 +226,3 @@ $(function() {
   }
 
 });
-
-window.addEventListener("load", (z) => {
-	z.preventDefault()
-	let a = document.querySelector(".hero-wrap")
-	a.style="background-image: url(images/haha.gif);"
-})
