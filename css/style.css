@@ -13604,71 +13604,71 @@ textarea.form-control {
 }
 
 #logo-br-1 {
-  -webkit-animation: slide-in-fwd-tr 2s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+  -webkit-animation: slide-in-fwd-tr 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s
     both;
-  animation: slide-in-fwd-tr 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-fwd-tr 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s both;
 }
 #logo-br-2 {
   -webkit-animation: slide-in-fwd-tr 1.85s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-    0.15s both;
-  animation: slide-in-fwd-tr 1.85s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.15s
+    2.15s both;
+  animation: slide-in-fwd-tr 1.85s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2.15s
     both;
 }
 #logo-br-3 {
   -webkit-animation: slide-in-fwd-tr 1.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-    0.3s both;
-  animation: slide-in-fwd-tr 1.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3s both;
+    2.3s both;
+  animation: slide-in-fwd-tr 1.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2.3s both;
 }
 #logo-br-4 {
   -webkit-animation: slide-in-fwd-tr 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-    0.5s both;
-  animation: slide-in-fwd-tr 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both;
+    2.5s both;
+  animation: slide-in-fwd-tr 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2.5s both;
 }
 
 #logo-tr-1 {
-  -webkit-animation: slide-in-fwd-br 2s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+  -webkit-animation: slide-in-fwd-br 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s
     both;
-  animation: slide-in-fwd-br 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-fwd-br 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s both;
 }
 #logo-tr-2 {
   -webkit-animation: slide-in-fwd-br 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-    0.5s both;
-  animation: slide-in-fwd-br 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both;
+    2.5s both;
+  animation: slide-in-fwd-br 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2.5s both;
 }
 
 #logo-r-1 {
-  -webkit-animation: slide-in-fwd-right 2s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+  -webkit-animation: slide-in-fwd-right 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s
     both;
-  animation: slide-in-fwd-right 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-fwd-right 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s both;
 }
 
 #logo-r-2 {
   -webkit-animation: slide-in-fwd-right 1.5s
-    cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both;
-  animation: slide-in-fwd-right 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) 2.5s both;
+  animation: slide-in-fwd-right 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2.5s
     both;
 }
 
 #logo-S {
-  -webkit-animation: slide-in-bck-bl 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s
+  -webkit-animation: slide-in-bck-bl 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 3s
     both;
-  animation: slide-in-bck-bl 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s both;
+  animation: slide-in-bck-bl 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 3s both;
 }
 
 #logo-P {
   -webkit-animation: slide-in-bck-bl-2 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-    1s both;
-  animation: slide-in-bck-bl-2 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s both;
+    3s both;
+  animation: slide-in-bck-bl-2 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 3s both;
 }
 
 #logo-F {
   -webkit-animation: slide-in-bck-tl-2 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-    1s both;
-  animation: slide-in-bck-tl-2 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s both;
+    3s both;
+  animation: slide-in-bck-tl-2 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 3s both;
 }
 
 #logo-T {
-  -webkit-animation: slide-in-bck-tl 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s
+  -webkit-animation: slide-in-bck-tl 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 3s
     both;
-  animation: slide-in-bck-tl 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s both;
+  animation: slide-in-bck-tl 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 3s both;
 }
