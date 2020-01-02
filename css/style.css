@@ -13604,57 +13604,57 @@ textarea.form-control {
 }
 
 #logo-br-1 {
-  -webkit-animation: slide-in-fwd-tr 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 4s both;
-  animation: slide-in-fwd-tr 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 4s both;
+  -webkit-animation: slide-in-fwd-tr 2s ease 4s both;
+  animation: slide-in-fwd-tr 2s ease 4s both;
 }
 #logo-br-2 {
-  -webkit-animation: slide-in-fwd-tr 1.85s cubic-bezier(0.25, 0.46, 0.45, 0.94) 4.15s both;
-  animation: slide-in-fwd-tr 1.85s cubic-bezier(0.25, 0.46, 0.45, 0.94) 4.15s both;
+  -webkit-animation: slide-in-fwd-tr 1.85s ease 4.15s both;
+  animation: slide-in-fwd-tr 1.85s ease 4.15s both;
 }
 #logo-br-3 {
-  -webkit-animation: slide-in-fwd-tr 1.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) 4.3s both;
-  animation: slide-in-fwd-tr 1.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) 4.3s both;
+  -webkit-animation: slide-in-fwd-tr 1.7s ease 4.3s both;
+  animation: slide-in-fwd-tr 1.7s ease 4.3s both;
 }
 #logo-br-4 {
-  -webkit-animation: slide-in-fwd-tr 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 4.5s both;
-  animation: slide-in-fwd-tr 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 4.5s both;
+  -webkit-animation: slide-in-fwd-tr 1.5s ease 4.5s both;
+  animation: slide-in-fwd-tr 1.5s ease 4.5s both;
 }
 
 #logo-tr-1 {
-  -webkit-animation: slide-in-fwd-br 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 4s both;
-  animation: slide-in-fwd-br 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 4s both;
+  -webkit-animation: slide-in-fwd-br 2s ease 4s both;
+  animation: slide-in-fwd-br 2s ease 4s both;
 }
 #logo-tr-2 {
-  -webkit-animation: slide-in-fwd-br 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 4.5s both;
-  animation: slide-in-fwd-br 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 4.5s both;
+  -webkit-animation: slide-in-fwd-br 1.5s ease 4.5s both;
+  animation: slide-in-fwd-br 1.5s ease 4.5s both;
 }
 
 #logo-r-1 {
-  -webkit-animation: slide-in-fwd-right 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 4s both;
-  animation: slide-in-fwd-right 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 4s both;
+  -webkit-animation: slide-in-fwd-right 2s ease 4s both;
+  animation: slide-in-fwd-right 2s ease 4s both;
 }
 
 #logo-r-2 {
-  -webkit-animation: slide-in-fwd-right 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 4.5s both;
-  animation: slide-in-fwd-right 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 4.5s both;
+  -webkit-animation: slide-in-fwd-right 1.5s ease 4.5s both;
+  animation: slide-in-fwd-right 1.5s ease 4.5s both;
 }
 
 #logo-S {
-  -webkit-animation: slide-in-bck-bl 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 5s both;
-  animation: slide-in-bck-bl 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 5s both;
+  -webkit-animation: slide-in-bck-bl 1s ease 5s both;
+  animation: slide-in-bck-bl 1s ease 5s both;
 }
 
 #logo-P {
-  -webkit-animation: slide-in-bck-bl-2 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 5s both;
-  animation: slide-in-bck-bl-2 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 5s both;
+  -webkit-animation: slide-in-bck-bl-2 1s ease 5s both;
+  animation: slide-in-bck-bl-2 1s ease 5s both;
 }
 
 #logo-F {
-  -webkit-animation: slide-in-bck-tl-2 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 5s both;
-  animation: slide-in-bck-tl-2 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 5s both;
+  -webkit-animation: slide-in-bck-tl-2 1s ease 5s both;
+  animation: slide-in-bck-tl-2 1s ease 5s both;
 }
 
 #logo-T {
-  -webkit-animation: slide-in-bck-tl 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 5s both;
-  animation: slide-in-bck-tl 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 5s both;
+  -webkit-animation: slide-in-bck-tl 1s ease 5s both;
+  animation: slide-in-bck-tl 1s ease 5s both;
 }
