@@ -1,7 +1,5 @@
 snapshot.zip
-.bash_history 
-.bash_logout 
-.bashrc 
-.cache/ 
-.gitconfig 
+.bash*
+.cache/
+.gitconfig
 .profile
