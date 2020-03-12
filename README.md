@@ -1,5 +1,7 @@
-# tfps
+# TFPS, IITKgp
 
-Website for Technology Filmmaking and Photography Society, IIT Kharagpur
+## Website for Technology Filmmaking and Photography Society, IIT Kharagpur
 
-[rashil2000.github.io/tfps](https://rashil2000.github.io/tfps/)
+Official link: [www.tfps.iitkgp.ac.in](http://www.tfps.iitkgp.ac.in/)
+
+Testing link: [rashil2000.github.io/tfps](https://rashil2000.github.io/tfps/)
