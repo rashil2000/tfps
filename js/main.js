@@ -24,7 +24,7 @@ $(document).ready(function($) {
 
 	// loader
 	var loader = function() {
-		setTimeout(function() { 
+		setTimeout(function() {
 			if($('#ftco-loader').length > 0) {
 				$('#ftco-loader').removeClass('show');
 			}
@@ -64,9 +64,9 @@ $(document).ready(function($) {
 
 	};
 	fullHeight();
-	
+
 	var counter = function() {
-		
+
 		$('#section-counter, .ftco-about').waypoint( function( direction ) {
 
 			if( direction === 'down' && !$(this.element).hasClass('ftco-animated') ) {
@@ -83,7 +83,7 @@ $(document).ready(function($) {
 					  }, 7000
 					);
 				});
-				
+
 			}
 
 		} , { offset: '95%' } );
@@ -96,7 +96,7 @@ $(document).ready(function($) {
 		$('.ftco-animate').waypoint( function( direction ) {
 
 			if( direction === 'down' && !$(this.element).hasClass('ftco-animated') ) {
-				
+
 				i++;
 
 				$(this.element).addClass('item-animate');
@@ -118,9 +118,9 @@ $(document).ready(function($) {
 							el.removeClass('item-animate');
 						},  k * 50, 'easeInOutExpo' );
 					});
-					
+
 				}, 100);
-				
+
 			}
 
 		} , { offset: '95%' } );
@@ -164,9 +164,9 @@ $(document).ready(function($) {
 
 
 $(function() {
-  
+
   var link = $('#navbar a.dot');
-  
+
   // Move to specific section when click on menu link
   link.on('click', function(e) {
     var target = $($(this).attr('href'));
@@ -176,13 +176,13 @@ $(function() {
     $(this).addClass('active');
     e.preventDefault();
   });
-  
+
   // Run the scrNav when scroll
   $(window).on('scroll', function(){
     scrNav();
   });
-  
-  // scrNav function 
+
+  // scrNav function
   // Change active dot according to the active section in the window
   function scrNav() {
     var sTop = $(window).scrollTop();
@@ -226,3 +226,21 @@ $(function() {
   }
 
 });
+
+(async () => {
+
+	try {
+		const channelId = 'UCZzBPd0ceMq4EzKNibqAyaA';
+		const apiKey = 'AIzaSyDyvDznJx3hmOGy-1IAmzaXbYQqE3JMX4w';
+
+		const response1 = await fetch(`https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${channelId}&key=${apiKey}`);
+		const result1 = await response1.json();
+		document.getElementById('youtubeSubSpan').innerHTML = `${result1.items[0].statistics.subscriberCount}`;
+
+		const response2 = await fetch('https://www.instagram.com/tfps.iitkgp/?__a=1');
+		const result2 = await response2.json();
+		document.getElementById('instagramFollowSpan').innerHTML = `${result2.graphql.user.edge_followed_by.count}`;
+	} catch (err) {
+		console.log(err);
+	}
+})();
